@@ -33,6 +33,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DataAccessLayer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\KatmanliMimari\DataAccessLayer\bin\Debug\DataAccessLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityLayer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\KatmanliMimari\DataAccessLayer\bin\Debug\EntityLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicLayer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\KatmanliMimari\LogicLayer\bin\Debug\LogicLayer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -80,18 +92,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
-      <Project>{6e0727a3-59c4-416b-a34c-0d5eccbfbee9}</Project>
-      <Name>DataAccessLayer</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\EntityLayer\EntityLayer.csproj">
-      <Project>{f92edd40-2ce4-4361-83dc-1f842e729c6a}</Project>
-      <Name>EntityLayer</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\LogicLayer\LogicLayer.csproj">
-      <Project>{b788288a-66bc-40b5-8bf4-97484c0fa85b}</Project>
-      <Name>LogicLayer</Name>
-    </ProjectReference>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

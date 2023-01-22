@@ -5,11 +5,11 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NKatmanliMimari", "NKatmanliMimari.csproj", "{BA47810A-0360-476A-836A-F78764A9760E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityLayer", "..\EntityLayer\EntityLayer.csproj", "{F92EDD40-2CE4-4361-83DC-1F842E729C6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "..\KatmanliMimari\DataAccessLayer\DataAccessLayer.csproj", "{6E0727A3-59C4-416B-A34C-0D5ECCBFBEE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "..\DataAccessLayer\DataAccessLayer.csproj", "{6E0727A3-59C4-416B-A34C-0D5ECCBFBEE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityLayer", "..\KatmanliMimari\EntityLayer\EntityLayer.csproj", "{F92EDD40-2CE4-4361-83DC-1F842E729C6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicLayer", "..\LogicLayer\LogicLayer.csproj", "{B788288A-66BC-40B5-8BF4-97484C0FA85B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicLayer", "..\KatmanliMimari\LogicLayer\LogicLayer.csproj", "{B788288A-66BC-40B5-8BF4-97484C0FA85B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,14 +21,14 @@ Global
 		{BA47810A-0360-476A-836A-F78764A9760E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA47810A-0360-476A-836A-F78764A9760E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA47810A-0360-476A-836A-F78764A9760E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F92EDD40-2CE4-4361-83DC-1F842E729C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F92EDD40-2CE4-4361-83DC-1F842E729C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F92EDD40-2CE4-4361-83DC-1F842E729C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F92EDD40-2CE4-4361-83DC-1F842E729C6A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6E0727A3-59C4-416B-A34C-0D5ECCBFBEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6E0727A3-59C4-416B-A34C-0D5ECCBFBEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E0727A3-59C4-416B-A34C-0D5ECCBFBEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E0727A3-59C4-416B-A34C-0D5ECCBFBEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F92EDD40-2CE4-4361-83DC-1F842E729C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F92EDD40-2CE4-4361-83DC-1F842E729C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F92EDD40-2CE4-4361-83DC-1F842E729C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F92EDD40-2CE4-4361-83DC-1F842E729C6A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B788288A-66BC-40B5-8BF4-97484C0FA85B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B788288A-66BC-40B5-8BF4-97484C0FA85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B788288A-66BC-40B5-8BF4-97484C0FA85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
